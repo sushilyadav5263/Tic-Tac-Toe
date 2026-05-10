@@ -36,7 +36,7 @@ const winnerPattern = [
      }
     }
     if( boxValue.every((val) => val !== "")){
-        alert("it's a draw");
+        alert("it's a draw!");
         resetGame();
     }
  }
@@ -44,4 +44,6 @@ const winnerPattern = [
     boxes.forEach((box) => (box.innerText =""));
     turnO = true;
   }
+
+
   

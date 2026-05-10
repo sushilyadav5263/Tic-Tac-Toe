@@ -6,10 +6,10 @@ body{
     background-color: lightgreen;
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+   
 }
 .nav-start{
-    height: 75vh;
+    height: 100vh;
     width: 30rem;
     border: 1px solid black;
     background-color: white;
