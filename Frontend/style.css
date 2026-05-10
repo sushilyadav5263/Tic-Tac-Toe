@@ -12,6 +12,7 @@ body{
     height: 75vh;
     width: 30rem;
     border: 1px solid black;
+    background-color: white;
 }
 .button{
     display: flex;
@@ -48,7 +49,7 @@ h3{
 }
 .strt{
     font-size: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     border-bottom: 4px solid rgb(29, 83, 101);
     color: rgb(29, 83, 101);
 }
@@ -58,11 +59,24 @@ h3{
     padding: 10px;
     gap: 20px;
 }
-.one{
+.box{
     height: 110px;
-    width: 110px;
-    border: 1px solid black;  
+    width: 110px;  
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+    
+}
+.restar{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    background-color: lightgreen;
+    font-size: large;
     
 }
 .las1{
@@ -71,4 +85,8 @@ h3{
     padding: 15px;
     text-align: center;
     color: rgb(29, 83, 101);
+}
+a{
+    color: black;
+    text-decoration: none;
 }
